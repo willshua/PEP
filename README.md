@@ -1,2 +1,2 @@
 # PEP
-中文PEP(Python Enhancement Proposals)
+PEP(Python Enhancement Proposals)的中文翻译
