@@ -26,15 +26,15 @@
 
 ---
 
-#### <font color = "dodgerblue">1. 导论</font> {#1}
+#### 1. 导论 {#1}
 
 ---
 
-#### <font color = "dodgerblue">2. A foolish consistency is the hobgoblin of little minds</font> {#2}
+#### 2. A foolish consistency is the hobgoblin of little minds {#2}
 
 ---
 
-#### <font color = "dodgerblue">3. 代码布局</font> {#3}
+#### 3. 代码布局 {#3}
 
 ##### 3.1 缩进
 
@@ -140,31 +140,31 @@ result = some_function_that_takes_arguments(
 
 ---
 
-#### <font color = "dodgerblue">4. 字符串引号</font> {#4}
+#### 4. 字符串引号 {#4}
 
 ---
 
-#### <font color = "dodgerblue">5. 表达式和语句中的空格</font> {#5}
+#### 5. 表达式和语句中的空格 {#5}
 
 ---
 
-#### <font color = "dodgerblue">6. 何时使用尾部逗号</font> {#6}
+#### 6. 何时使用尾部逗号 {#6}
 
 ---
 
-#### <font color = "dodgerblue">7. 注释</font> {#7}
+#### 7. 注释 {#7}
 
 ---
 
-#### <font color = "dodgerblue">8. 命名规范</font> {#8}
+#### 8. 命名规范 {#8}
 
 ---
 
-#### <font color = "dodgerblue">9. 编程建议</font> {#9}
+#### 9. 编程建议 {#9}
 
 ---
 
-#### <font color = "dodgerblue">10. 参考</font> {#10}
+#### 10. 参考 {#10}
 
 > [1] [PEP 7](https://www.python.org/dev/peps/pep-0007), Style Guide for C Code, van Rossum
 > [2] Barry's GNU Mailman Style Guide <http://barry.warsaw.us/software/STYLEGUIDE.txt>
