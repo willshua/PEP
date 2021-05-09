@@ -1,5 +1,5 @@
 # 汉化PEP
-PEP(Python Enhancement Proposals)的中文翻译
+PEP (Python Enhancement Proposals) 的中文翻译
 
 ## 什么是PEP
 - `Python Enhancement Proposals`的缩写, Python增强建议书. 为Python社区提供各种增强功能的技术规格, 也是提交新特性以便让社区指出问题, 精确化技术文档的提案.
@@ -15,28 +15,14 @@ PEP(Python Enhancement Proposals)的中文翻译
       
       这类PEP主要描述Python的新功能和新实践, 数量最多.
 
-- 每个PEP最初都是一个草案(Draft), 随后会经历一个过程, 因此也就产生了不同的状态(Status).
-    - `A: Accepted(Standards Track only) or Active proposal`
-
-      已接受 (仅限于标准类) 或有效提案.
-    - `D: Deferred proposal`
-      
-      延期提案.
-    - `F: Final proposal`
-      
-      最终提案.
-    - `P: Provisional proposal`
-
-      暂定提案.
-    - `R: Rejected proposal`
-
-      被否决的提案.
-    - `S: Superseded proposal`
-
-      被取代的提案.
-    - `W: Withdrawn proposal`
-
-      撤回提案.
+- 每个PEP最初都是一个草案 (Draft), 随后会经历一个过程, 因此也就产生了不同的状态 (Status).
+    - `A: Accepted(Standards Track only) or Active proposal` 已接受 (仅限于标准类) 或有效提案.
+    - `D: Deferred proposal` 延期提案.
+    - `F: Final proposal` 最终提案.
+    - `P: Provisional proposal` 暂定提案.
+    - `R: Rejected proposal` 被否决的提案.
+    - `S: Superseded proposal` 被取代的提案.
+    - `W: Withdrawn proposal` 撤回提案.
 
 - 官方文档地址: https://www.python.org/dev/peps/
 - 官方仓库地址: https://github.com/python/peps
