@@ -2,7 +2,7 @@
 PEP (Python Enhancement Proposals) 的中文翻译
 
 ## 什么是PEP
-- `Python Enhancement Proposals`的缩写, Python增强建议书. 为Python社区提供各种增强功能的技术规格, 也是提交新特性以便让社区指出问题, 精确化技术文档的提案.
+- `Python Enhancement Proposals` 的缩写, Python增强建议书. 为Python社区提供各种增强功能的技术规格, 也是提交新特性以便让社区指出问题, 精确化技术文档的提案.
 
 - 三类PEP:
     - `I: Informational PEP` (信息类)
