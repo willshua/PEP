@@ -5,18 +5,27 @@ PEP (Python Enhancement Proposals) 的中文翻译
 - `Python Enhancement Proposals` 的缩写, Python增强建议书. 为Python社区提供各种增强功能的技术规格, 也是提交新特性以便让社区指出问题, 精确化技术文档的提案.
 
 - 三类PEP:
-    - `I: Informational PEP` (信息类)
+    - `I: Informational PEP` (信息性PEP)
       
-      这类PEP就是提供信息, 有告知类, 也有知道类等.
-    - `P: Process PEP` (流程类)
+      这类PEP描述了Python设计问题, 或为Python社区提供了一般的指导方针或信息,
+      但没有提出新的特性. 信息性PEP不一定代表Python社区的共识或建议,
+      因此用户和实现人员可以自由地忽略信息性PEP或听从其建议.
+    - `P: Process PEP` (进程PEP)
       
-      这类PEP主要是Python自身之外的周边信息.
-    - `S: Standards Track PEP` (标准类)
+      这类PEP描述围绕Python的进程, 或建议对进程 (或进程中的事件) 进行更改.
+      进程PEP类似于标准跟踪PEP的标准, 但适用于Python语言本身之外的其他领域.
+      其可能会提出一个实现, 但不会提出Python的代码库, 它们往往需要社区的共识,
+      与信息性PEP不同, 它们不仅仅是建议, 用户通常不能随意忽略它们.
+      示例包括过程、指南、对决策过程的更改, 以及对Python开发中使用的工具或环境的更改.
+      任何元PEP也被认为是进程PEP.
+    - `S: Standards Track PEP` (标准跟踪PEP)
       
-      这类PEP主要描述Python的新功能和新实践, 数量最多.
+      这类PEP描述了Python的一个新特性或实现. 它还可能描述一个互操作性标准,
+      在后续PEP在未来版本中添加标准库支持之前,
+      该互操作性标准将在当前Python版本的标准库之外得到支持.
 
 - 每个PEP最初都是一个草案 (Draft), 随后会经历一个过程, 因此也就产生了不同的状态 (Status).
-    - `A: Accepted(Standards Track only) or Active proposal` 已接受 (仅限于标准类) 或有效提案.
+    - `A: Accepted(Standards Track only) or Active proposal` 已接受 (仅限于标准跟踪) 或有效提案.
     - `D: Deferred proposal` 延期提案.
     - `F: Final proposal` 最终提案.
     - `P: Provisional proposal` 暂定提案.
