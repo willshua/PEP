@@ -38,7 +38,7 @@
 - [注释](#chapter-7) <div id="content-7">
 - [命名规范](#chapter-8) <div id="content-8">
 - [编程建议](#chapter-9) <div id="content-9">
-- [参考](#chapter-10) <div id="content-10">
+- [参考文献](#chapter-10) <div id="content-10">
 
 <br>
 <!-- <div class="page"/> -->
@@ -1077,7 +1077,7 @@
 <br>
 <!-- <div class="page"/> -->
 
-## <div id="chapter-10"> [十、参考](#content-10) 
+## <div id="chapter-10"> [十、参考文献](#content-10) 
 
 > [[1]](#text-1) [PEP 7](https://www.python.org/dev/peps/pep-0007), Style Guide for C Code, van Rossum <div id="note-1"/> 
 > [[2]](#text-2) Barry's GNU Mailman Style Guide <http://barry.warsaw.us/software/STYLEGUIDE.txt> <div id="note-2"/> 
