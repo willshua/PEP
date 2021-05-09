@@ -475,7 +475,7 @@
     c = (a + b) * (a - b)
     ```
 
-* 函数注释应当使用正常的冒号规则, 并应在->箭头两端留有空格.
+* 函数注解应当使用正常的冒号规则, 并应在->箭头两端留有空格.
     ```Python
     # Correct:
     def munge(input: AnyStr) -> PosInt: ...
@@ -495,7 +495,7 @@
         return magic(r = real, i = imag)
     ```
   
-  若参数即有注释又有默认值时, 在等号两侧各有一空格.
+  若参数即有注解又有默认值时, 在等号两侧各有一空格.
     ```Python
     # Correct:
     def munge(sep: AnyStr = None): ...
@@ -1020,36 +1020,36 @@
             return 42
     ```
 
-### 1. 函数注释
+### 1. 函数注解
 
-* 接受[PEP 484](https://www.python.org/dev/peps/pep-0484/)后, 函数注释的样式规则正在改变.
+* 接受[PEP 484](https://www.python.org/dev/peps/pep-0484/)后, 函数注解的样式规则正在改变.
 
-* 为了向前兼容性, Python 3中的函数注释最好应使用[PEP 484](https://www.python.org/dev/peps/pep-0484/)语法.
+* 为了向前兼容性, Python 3中的函数注解最好应使用[PEP 484](https://www.python.org/dev/peps/pep-0484/)语法.
 
-* 不再鼓励使用在本PEP前建议的注释样式进行实验.
+* 不再鼓励使用在本PEP前建议的注解样式进行实验.
 
-* 但在标准库之外, 现在是鼓励在[PEP 484](https://www.python.org/dev/peps/pep-0484/)规则子类进行实验. 如使用[PEP 484](https://www.python.org/dev/peps/pep-0484/)风格的类型注释为大型第三方库或程序标记, 查看田间这些注释的难易程度, 并观察其存在是否增加了代码的可理解性.
+* 但在标准库之外, 现在是鼓励在[PEP 484](https://www.python.org/dev/peps/pep-0484/)规则子类进行实验. 如使用[PEP 484](https://www.python.org/dev/peps/pep-0484/)风格的类型注解为大型第三方库或程序标记, 查看这些注解的难易程度, 并观察其存在是否增加了代码的可理解性.
 
-* Python标准库在采用此类注释时应保持保守, 但允许将其用于新代码和大型重构中.
+* Python标准库在采用此类注解时应保持保守, 但允许将其用于新代码和大型重构中.
 
-* 对于向将函数注释做不同用处的代码, 推荐添加以下形式的注释:
+* 对于向将函数注解做不同用处的代码, 推荐添加以下形式的注释:
     ```Python
     # type: ignore
     ```
 
-  写在文件顶部. 这告诉类型检查器忽视所有注释.
+  写在文件顶部. 这告诉类型检查器忽视所有注解.
 
-* 像检查器一样, 类型检查器是可选且独立的工具. 默认的Python解释器不应由类型检查而发出信息, 也不应基于注释而改变行为.
+* 像检查器一样, 类型检查器是可选且独立的工具. 默认的Python解释器不应由类型检查而发出信息, 也不应基于注解而改变行为.
 
 * 不愿使用类型检查器的用户可以自由忽略类型检查器. 然而, 第三方库的用户应对那些软件包运行类型检查器. 为此, [PEP 484](https://www.python.org/dev/peps/pep-0484/)建议使用存根文件: 类型检查其优先于相应的.py文件读取的.pyi文件. 存根文件可以与库一起分发, 也可以通过排版的仓库单独分发(在库作者的允许下). [[5]](#note-5)) <div id="text-5">
 
-* 对于需要保持向后兼容性的代码, 类型注释可以注释的形式添加. 详见[PEP 484](https://www.python.org/dev/peps/pep-0484/)的相关部分. [[6]](#note-6)) <div id="text-6">
+* 对于需要保持向后兼容性的代码, 类型注解可以注释的形式添加. 详见[PEP 484](https://www.python.org/dev/peps/pep-0484/)的相关部分. [[6]](#note-6)) <div id="text-6">
 
-### 2. 变量注释
+### 2. 变量注解
 
-* [PEP 526](https://www.python.org/dev/peps/pep-0526/)引入了变量注释. 对于其的风格建议与上文提到的对函数注释的建议类似.
+* [PEP 526](https://www.python.org/dev/peps/pep-0526/)引入了变量注解. 对于其的风格建议与上文提到的对函数注解的建议类似.
 
-* 对于模块级变量, 类和实例变量以及局部变量的注释, 在冒号后应有一空格.
+* 对于模块级变量, 类和实例变量以及局部变量的注解, 在冒号后应有一空格.
 
 * 在冒号前不应有空格.
 
@@ -1072,7 +1072,7 @@
         result: int=0  # No spaces around equality sign 
     ```
 
-* 尽管[PEP 526](https://www.python.org/dev/peps/pep-0526/)被Python 3.6接受, 但变量注释语法是所有版本的Python存根文件中的首选语法(详见[PEP 484](https://www.python.org/dev/peps/pep-0484/)).
+* 尽管[PEP 526](https://www.python.org/dev/peps/pep-0526/)被Python 3.6接受, 但变量注解语法是所有版本的Python存根文件中的首选语法(详见[PEP 484](https://www.python.org/dev/peps/pep-0484/)).
 
 <br>
 <!-- <div class="page"/> -->
