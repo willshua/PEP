@@ -681,7 +681,7 @@
     tkinter.Toplevel(master, class_="ClassName")
     ```
 
-    - __double_leading_underscore (双前导下划线): 命名类属性, 调用时名称改编(在FooBar类中, __boo将变成_FooBar__boo, 详见下文).
+    - __double_leading_underscore (双前导下划线): 命名类属性, 调用时名称混淆/名称修饰(name mangle)(在FooBar类中, __boo将变成_FooBar__boo, 详见下文).
 
     - \_\_double_leading_and_trailing_underscore\_\_ (双前导与后置下划线): 存在于用户控制的命名空间中的Magic对象或属性. 如__init__, \_\_import__或__file\_\_. 不要创造这样的名称. 仅像文档中一样使用它们.
 
@@ -753,15 +753,15 @@
   
   仅在非公共方法和实例变量前使用前导下划线.
 
-* 为了避免名称与子类冲突, 使用两个前导下划线以调用Python的名称改编规则.
+* 为了避免名称与子类冲突, 使用两个前导下划线以调用Python的名称混淆规则.
 
-  Python用类名改编这些名字: 如果Foo类有一个名为\_\_a的属性, 则Foo.__a不能访问它. (可以通过Foo._Foo\_\_a访问.) 通常应仅使用双前导下划线来避免与子类属性名冲突.
+  Python用类名修饰这些名字: 如果Foo类有一个名为\_\_a的属性, 则Foo.__a不能访问它. (可以通过Foo._Foo\_\_a访问.) 通常应仅使用双前导下划线来避免与子类属性名冲突.
 
   注意: 关于\_\_name的使用存在一些争议(见下文).
 
 #### &emsp; 常量
 
-* 产量通常在模块级别定义, 使用下划线分隔单词且所有字母大写. 如MAX_OVERFLOW, TOTAL.
+* 常量通常在模块级别定义, 使用下划线分隔单词且所有字母大写. 如MAX_OVERFLOW, TOTAL.
 
 #### &emsp; 继承的设计
 
