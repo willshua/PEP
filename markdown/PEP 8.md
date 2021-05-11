@@ -11,7 +11,7 @@
     </dd>
 </dl>
 
-翻 译 &nbsp; Wills Hua (wills.hua96@gmail.com)
+<!-- 翻 译 &nbsp; Wills Hua (wills.hua96@gmail.com) -->
 
 状 态 &nbsp; 有效提案
 
