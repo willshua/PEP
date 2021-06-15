@@ -36,7 +36,8 @@
 
 ## <div id="chapter-1"> [一、摘要](#content-1) 
 
-* Long time Pythoneer Tim Peters succinctly channels the BDFL's guiding principles for Python's design into 20 aphorisms, only 19 of which have been written down.
+
+* Python 核心开发成员之一的 Tim Peters 将终身仁慈独裁者 BDFL(Benevolent dictator for life) 对 Python 设计的指导原则简洁的归纳为 20 条格言, 其中只有 19 条被写下来.
 
 <br>
 <!-- <div class="page"/> -->
@@ -76,3 +77,5 @@
 <!-- <div class="page"/> -->
 
 ## <div id="chapter-4"> [四、参考文献](#content-4) 
+
+> 最初发表在 comp.lang.python/python-list@python.org 的 "The Ways of Python" 主题下. [https://groups.google.com/d/msg/comp.lang.python/B_VxeTBClM0/L8W9KlsiriUJ](https://groups.google.com/d/msg/comp.lang.python/B_VxeTBClM0/L8W9KlsiriUJ)
